@@ -1,16 +1,34 @@
-# machine_ui
+# machine UI
 
-A new Flutter project.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://python.org)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/projectname/ci.yml)](https://github.com/yourusername/projectname/actions)
 
-## Getting Started
+A brief one-line description of your project.
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Feature 1 (e.g., "User authentication")
+- Feature 2 (e.g., "REST API endpoints")
+- Feature 3 (e.g., "Database integration")
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Quick Start
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- Python 3.8+
+- PostgreSQL (or your DB)
+- Redis (if applicable)
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/melau-eddy/machine-ui
+cd machine-ui
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
